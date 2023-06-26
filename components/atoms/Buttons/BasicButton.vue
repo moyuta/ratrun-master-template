@@ -10,12 +10,12 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-button{
-    background-color: #F86986;
-    border-radius: 10px;
-    border: none;
-    padding: 15px 20px;
-    color: white;
-    font-weight: bold;
+button {
+  background-color: #F86986;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
 }
 </style>

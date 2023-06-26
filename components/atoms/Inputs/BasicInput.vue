@@ -35,15 +35,14 @@ const emits = defineEmits(["inputValue"]);
 </script>
 
 <style lang="scss" scoped>
-
-input{
+input {
   width: 100%;
   border: 1px solid $light-gray ;
   border-radius: 20px;
   padding: 20px ;
   font-size: 18px;
   box-sizing: border-box;
-  &:focus{
+  &:focus {
     border: 2px solid #75d3d7 ;
   }
 }
