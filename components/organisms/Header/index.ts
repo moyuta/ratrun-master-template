@@ -1,4 +1,3 @@
-import AppHeader from "./AppHeader";
-
+import AppHeader from "./AppHeader.vue";
 
 export { AppHeader };

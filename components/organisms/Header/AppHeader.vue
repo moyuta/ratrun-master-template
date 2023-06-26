@@ -13,11 +13,12 @@
   </header>
 </template>
 
-<script setup>
-const pageList = ref([
-  { title: "案件を探す" },
-  { title: "ログイン" },
-  { title: "新規登録" },
+<script setup lang="ts">
+import { reactive } from "@vue/reactivity";
+const pageList = reactive([
+  { title: "案件を探す", to:'/' },
+  { title: "ログイン" , to:'/login' },
+  { title: "新規登録" , to:'/registration'},
 ]);
 </script>
 

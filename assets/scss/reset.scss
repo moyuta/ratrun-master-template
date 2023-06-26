@@ -12,6 +12,18 @@ p {
   line-height: 1.5;
 }
 
+input{
+  margin: 0;
+	padding: 0;
+	background: none;
+	border: 1px solid black;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
 p{
   font-size: 14px;
   color: #2d2d2d
