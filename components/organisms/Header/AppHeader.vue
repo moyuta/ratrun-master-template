@@ -6,7 +6,7 @@
     <nav class="nav-area">
       <ul class="nav-area-list">
         <li v-for="(page, key) in pageList" :key="key">
-          <nuxt-link to="#">{{ page.title }}</nuxt-link>
+          <nuxt-link :to="page.to">{{ page.title }}</nuxt-link>
         </li>
       </ul>
     </nav>
@@ -16,13 +16,13 @@
 <script setup lang="ts">
 import { reactive } from "@vue/reactivity";
 const pageList = reactive([
-  { title: "案件を探す", to:'/' },
-  { title: "ログイン" , to:'/login' },
-  { title: "新規登録" , to:'/registration'},
+  { title: "案件を探す", to: "/" },
+  { title: "ログイン", to: "/login" },
+  { title: "新規登録", to: "/registration" },
 ]);
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 header {
   position: fixed;
   z-index: 10;

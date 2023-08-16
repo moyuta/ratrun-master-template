@@ -1,2 +1,4 @@
 import BasicButton from "./BasicButton.vue";
-export { BasicButton };
+import SearchButton from "./SearchButton.vue";
+import TagButton from "./TagButton.vue";
+export { BasicButton, SearchButton, TagButton };
